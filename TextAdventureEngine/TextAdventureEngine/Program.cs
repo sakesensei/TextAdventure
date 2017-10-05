@@ -10,11 +10,23 @@ namespace TextAdventureEngine
 	{
 		static void Main(string[] args)
 		{
+			#region Test
+			/*
 			string text;
 
 			text = TextInput.AcceptStringInput(Console.ReadLine());
 			Console.WriteLine(text);
 			Console.ReadLine();
+			*/
+			#endregion
+
+			#region Main Loop
+			// Main Game Loop
+
+
+
+
+			#endregion
 		}
 	}
 }
