@@ -1,11 +1,12 @@
 ﻿namespace TextAdventureEngine
 {
-	public class TextInput
+	public static class TextInput
 	{
-		void AcceptStringInput(string userInput)
+		public static string AcceptStringInput(string userInput)
 		{
-			userInput.Trim();
-			userInput = userInput.ToLower();
+			userInput = userInput.Trim();
+			userInput = userInput.ToUpper();
+			return userInput;
 		}
 	}
 }

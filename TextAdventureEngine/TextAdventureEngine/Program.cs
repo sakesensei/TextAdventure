@@ -10,7 +10,11 @@ namespace TextAdventureEngine
 	{
 		static void Main(string[] args)
 		{
-			
+			string text;
+
+			text = TextInput.AcceptStringInput(Console.ReadLine());
+			Console.WriteLine(text);
+			Console.ReadLine();
 		}
 	}
 }
