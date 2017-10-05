@@ -10,6 +10,7 @@ namespace TextAdventureEngine
 	{
 		static void Main(string[] args)
 		{
+			
 		}
 	}
 }

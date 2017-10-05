@@ -18,11 +18,12 @@
 		}
 	}
 
+	// Anything that holds things
 	public abstract class ThingHolder : Thing
 	{
-		
 	}
 
+	// Room - Contains itens and actors and containers
 	public class Room : ThingHolder
 	{
 		private int _x;
